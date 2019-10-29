@@ -14,9 +14,6 @@ def random_word(params):
 
 
 
-
-
-
 if __name__ == "__main__":
     params = sys.argv[1]
     random_word(params)
