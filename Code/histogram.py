@@ -40,7 +40,7 @@ def frequency(word, dict):
 
 if __name__ == '__main__':
     histogram = {}
-    with open("sample.txt", "r") as data:
+    with open("illiad.txt", "r") as data:
         histogram_dictionary(data)
         unique_words(histogram)
         frequency("is", histogram)
